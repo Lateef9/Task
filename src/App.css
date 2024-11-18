@@ -1,0 +1,279 @@
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h1 {
+  font-size: 2rem;
+  color: #FF7F50; 
+  margin: 0;
+}
+
+.navbar-search .searchbar {
+  padding: 0.5rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+.navbar-login .login-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #FF7F50; 
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar-login .login-btn:hover {
+  background-color: #e06a3b;
+}
+
+
+
+/* Hero Section Styling */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0rem 0rem 3rem;
+  background-color: #f0f0f0;
+  margin: 40px;
+}
+
+.hero-left {
+  max-width: 600px;
+  text-align: left;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #FF7F50; 
+  margin-bottom: 1rem;
+}
+
+.hero-subheading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  padding: 1rem 2rem;
+  background-color: #FF7F50; 
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  background-color: #e06a3b; 
+}
+
+.hero-right {
+  flex-shrink: 0;
+  max-width: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Top Meals Section */
+.top-meals {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.top-meals h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.top-meals p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.meal-item {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 1rem;
+  width: calc(25% - 2rem);
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+
+.meal-item:hover {
+  transform: scale(1.05);
+}
+
+.meal-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.meal-name {
+  font-size: 1.4rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.meal-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+/* Subscrtiption secton */
+.stay-updated {
+  background-image: url('https://images.unsplash.com/photo-1526318896980-cf78c088247c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your desired background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 6rem;
+  margin: 0rem 6rem;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+}
+
+.stay-updated-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.stay-updated h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.stay-updated p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.email-input {
+  padding: 0.8rem;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.subscribe-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #FF7F50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: #e06a3b; 
+}
+
+
+/* Footer Section */
+/* Footer Section */
+.footer {
+  padding: 2rem 0;
+  border-top: 1px ; 
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  font-size: 1rem;
+}
+
+.footer-links a {
+  color: #ff6600; 
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links a:active {
+  color: #e65c00; 
+}
